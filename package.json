@@ -1,0 +1,22 @@
+{
+  "name": "playwright_101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:local": "npx playwright test tests/Assignment.spec.js --headed",
+    "test:testmu": "npx playwright test tests/Assignment.spec.js",
+    "test:report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.3"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.4"
+  }
+}
